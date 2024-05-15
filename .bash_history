@@ -173,3 +173,49 @@ git add PEOPLE.md
 git status
 git commit -m 'add PEOPLE.md'
 git status
+echo 'experiment with amend' >> INFO.md
+echo 'experiment with amend' >> README.md
+git add INFO.md
+git commit -m 'add content to INFO.md and README.md
+git commit -m 'add content to INFO.md and README.md'
+git status
+git add README.md
+git commit --amend
+git status
+git restore .bash_history hexlet-git
+git status
+git restore .bash_history
+git status
+git push
+echo 'new data' >> INFO.md
+git commit INFO.md -m 'update INFO.md'
+git push
+echo 'old data' >> INFO.md
+echo 'old data2' >> README.md
+git commit .
+git add .
+git commit -m "old data"
+git status
+git push
+echo 'do something' >> README.md
+echo 'do something' >> INFO.md
+git commit -am 'do something'
+git status
+git add -i
+
+git add -i
+echo 'first' >> INFO.md
+echo 'second' >> INFO.md
+git add -i
+git commit -m 'first and second'
+git status
+cat INFO.md
+logout
+git add -i
+git add -p
+s
+git diff -staged
+git diff --staged
+git add -p
+q
+logout
